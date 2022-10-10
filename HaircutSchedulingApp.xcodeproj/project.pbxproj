@@ -16,6 +16,12 @@
 		56273F8928F11C9100D3899D /* HaircutSchedulingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56273F8828F11C9100D3899D /* HaircutSchedulingAppTests.swift */; };
 		56273F9328F11C9100D3899D /* HaircutSchedulingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56273F9228F11C9100D3899D /* HaircutSchedulingAppUITests.swift */; };
 		56273F9528F11C9100D3899D /* HaircutSchedulingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56273F9428F11C9100D3899D /* HaircutSchedulingAppUITestsLaunchTests.swift */; };
+		56273FA228F11D2200D3899D /* PaymentOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56273FA128F11D2200D3899D /* PaymentOptions.swift */; };
+		56273FA828F11E0F00D3899D /* SchedulingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56273FA728F11E0F00D3899D /* SchedulingInfo.swift */; };
+		56273FAE28F11EC800D3899D /* HaircutTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56273FAD28F11EC800D3899D /* HaircutTypes.swift */; };
+		56273FB028F11F9000D3899D /* HaircutsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56273FAF28F11F9000D3899D /* HaircutsTableViewController.swift */; };
+		56273FB228F11FBF00D3899D /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56273FB128F11FBF00D3899D /* MessagingViewController.swift */; };
+		56273FB428F1201B00D3899D /* ConfirmationRecommendationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56273FB328F1201B00D3899D /* ConfirmationRecommendationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		56273F8E28F11C9100D3899D /* HaircutSchedulingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaircutSchedulingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56273F9228F11C9100D3899D /* HaircutSchedulingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaircutSchedulingAppUITests.swift; sourceTree = "<group>"; };
 		56273F9428F11C9100D3899D /* HaircutSchedulingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaircutSchedulingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56273FA128F11D2200D3899D /* PaymentOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptions.swift; sourceTree = "<group>"; };
+		56273FA728F11E0F00D3899D /* SchedulingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingInfo.swift; sourceTree = "<group>"; };
+		56273FAD28F11EC800D3899D /* HaircutTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaircutTypes.swift; sourceTree = "<group>"; };
+		56273FAF28F11F9000D3899D /* HaircutsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaircutsTableViewController.swift; sourceTree = "<group>"; };
+		56273FB128F11FBF00D3899D /* MessagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
+		56273FB328F1201B00D3899D /* ConfirmationRecommendationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationRecommendationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				56273F7A28F11C9000D3899D /* Assets.xcassets */,
 				56273F7C28F11C9000D3899D /* LaunchScreen.storyboard */,
 				56273F7F28F11C9000D3899D /* Info.plist */,
+				56273FA128F11D2200D3899D /* PaymentOptions.swift */,
+				56273FA728F11E0F00D3899D /* SchedulingInfo.swift */,
+				56273FAD28F11EC800D3899D /* HaircutTypes.swift */,
+				56273FAF28F11F9000D3899D /* HaircutsTableViewController.swift */,
+				56273FB128F11FBF00D3899D /* MessagingViewController.swift */,
+				56273FB328F1201B00D3899D /* ConfirmationRecommendationView.swift */,
 			);
 			path = HaircutSchedulingApp;
 			sourceTree = "<group>";
@@ -258,7 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56273FB028F11F9000D3899D /* HaircutsTableViewController.swift in Sources */,
+				56273FB428F1201B00D3899D /* ConfirmationRecommendationView.swift in Sources */,
 				56273F7628F11C8300D3899D /* ViewController.swift in Sources */,
+				56273FA828F11E0F00D3899D /* SchedulingInfo.swift in Sources */,
+				56273FAE28F11EC800D3899D /* HaircutTypes.swift in Sources */,
+				56273FA228F11D2200D3899D /* PaymentOptions.swift in Sources */,
+				56273FB228F11FBF00D3899D /* MessagingViewController.swift in Sources */,
 				56273F7228F11C8300D3899D /* AppDelegate.swift in Sources */,
 				56273F7428F11C8300D3899D /* SceneDelegate.swift in Sources */,
 			);
@@ -440,6 +464,7 @@
 				DEVELOPMENT_TEAM = 4B99K43XWU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HaircutSchedulingApp/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = HaircutSchedulingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

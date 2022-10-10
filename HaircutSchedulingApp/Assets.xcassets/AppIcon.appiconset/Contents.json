@@ -11,6 +11,7 @@
       "size" : "20x20"
     },
     {
+      "filename" : "pinkbarber-icon-2.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
@@ -31,11 +32,13 @@
       "size" : "40x40"
     },
     {
+      "filename" : "pinkbarber-icon.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "pinkbarber-icon-1.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
@@ -56,6 +59,7 @@
       "size" : "29x29"
     },
     {
+      "filename" : "pinkbarber-icon-3.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "29x29"
@@ -69,6 +73,11 @@
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
+    },
+    {
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "76x76"
     },
     {
       "idiom" : "ipad",
